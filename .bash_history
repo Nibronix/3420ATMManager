@@ -86,3 +86,12 @@ mysql -p
 mysqldump -u atmmanager -p atmmanager > atmmanager_dump.sql
 mysql
 mysql -p
+git init
+git config --global user.name "Nick"
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/TKTJXTI/3420ATMManager.git
+git push -u origin master
+git remote add orign git@github.com:TKTJXTI/3420ATMManager.git
+git push -u origin main
+git push -u origin master
