@@ -84,59 +84,41 @@ $search_form->add_input("Search", [
     "value" => "Search"
 ]);
 
-if (isset($_POST["search"])) {
-    echo "Searching...<br>";
+$search_form->add_input("table_name", [
+    "type" => "hidden",
+    "name" => "table_name",
+    "value" => $table_name
+]);
 
+
+if (isset($_POST["search"])) {
     $db = get_pdo_connection();
-    $query = false;
+    $query = null;
 
     if (empty($table_name)) {
-        // If no table is selected, display an error message
-        echo "Error: No table selected. :(<br>";
+        echo "Error: No table was selected :( <br>";
         return;
     }
 
-    if (!empty($_POST["search_id"])) {
-        // If an ID is specified, search for it in the selected table
-        $search_id = $_POST["search_id"];
-        $query = $db->prepare("SELECT * FROM {$table_name} WHERE id LIKE ?");
-        $query = $db->prepare($sql_query);
-        $query->execute(array("%{$search_id}%"));
-    }
-    else if (!empty($_POST["search_data"]) && !empty($_POST["Attributes"])) {
-        // If search data and an attribute are specified, search for data in the selected attribute of the selected table
-        $attribute = $_POST["Attributes"];
+    if (!empty($_POST["search_data"]) && !empty($_POST["attribute"])) {
+        $attribute = $_POST["attribute"];
         $search_data = $_POST["search_data"];
-        $sql_query = "SELECT * FROM `{$table_name}` WHERE `{$attribute}` LIKE '%{$search_data}%'";
+        $sql_query = "SELECT * FROM `{$table_name}` WHERE `{$attribute}` LIKE :searchData";
         $query = $db->prepare($sql_query);
-        $query->bindValue(1, "%{$search_data}%", PDO::PARAM_STR);
-        $query->execute();
-    }
-    else {
-        // If no search criteria are specified, select all data from the selected table
+        $query->bindValue(':searchData', "%{$search_data}%", PDO::PARAM_STR);
+    } else {
         $sql_query = "SELECT * FROM `{$table_name}`";
         $query = $db->prepare($sql_query);
-        $query->execute();
     }
 
-    if ($query) {
-        if ($query->execute()) {
-            // If the query is successful, display the results in a table
-            $rows = $query->fetchAll(PDO::FETCH_ASSOC);
-            echo makeTable($rows);
-        }
-        else {
-            // If the query fails, display an error message
-            echo "Error executing select query:<br>";
-            print_r($query->errorInfo());
-        }
-    }
-    else{
-        // If no search criteria are specified, display an error message
-        echo "Error executing select query: no id or data specified<br>";
+    if ($query->execute()) {
+        $rows = $query->fetchAll(PDO::FETCH_ASSOC);
+        echo makeTable($rows);
+    } else {
+        echo "Error executing select query:<br>";
+        print_r($query->errorInfo());
     }
 }
-
 
 
 // Generates query forms
