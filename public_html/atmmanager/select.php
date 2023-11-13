@@ -11,12 +11,14 @@ require_once("config.php");
 <body>
     <h1><?= $PROJECT_NAME ?></h1>
     <?php include("nav.php"); ?>
-    <h2>SQL SELECT -> HTML Table using <a href="https://www.php.net/manual/en/book.pdo.php">PDO</a></h2>
     <?php
 
 $table_name = $_POST['table_name'] ?? null;
 ?>
 
+<?php
+echo "<br><br>";
+?>
 
 <?php
 $select_form = new PhpFormBuilder();
@@ -28,19 +30,17 @@ $select_form->set_att("method", "POST");
  */
 
 // Create select form
+
+$db = new PDO('mysql:host=localhost;dbname=atmmanager', 'atmmanager', 'Zyaf&6yud');
+
+$result = $db->query("SHOW TABLES");
+$tables = $result->fetchAll(PDO::FETCH_COLUMN);
+
 $select_form->add_input("Table Selection", [
     "type" => "select",
     "name" => "table_name",
     "id" => "table_name",
-    "options" => [
-        "ATM" => "ATM",
-        "Account_Information" => "Account Information",
-        "Bank" => "Bank",
-        "Branch" => "Branch",
-        "Employee" => "Employee",
-        "Transaction" => "Transaction",
-        "User" => "User"
-    ]
+    "options" => array_combine($tables, $tables)
 ]);
 
 $select_form->add_input("submit", array(
