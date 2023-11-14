@@ -113,6 +113,7 @@ if (isset($_POST["search"])) {
 
     if ($query->execute()) {
         $rows = $query->fetchAll(PDO::FETCH_ASSOC);
+        echo "Search Results: " . count($rows) . "<br>";
         echo makeTable($rows);
     } else {
         echo "Error executing select query:<br>";
@@ -132,6 +133,8 @@ $query->execute();
 $rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 // Outputs table results
+
+echo "Table Results: " . count($rows) . "<br>";
 echo makeTable($rows);
 
 ?>
