@@ -3,7 +3,7 @@ SET foreign_key_checks = 0;
 -- Create Bank table
 DROP TABLE IF EXISTS Bank;
 CREATE TABLE Bank (
-    Bank_ID INT NOT NULL,
+    Bank_ID INT NOT NULL AUTO_INCREMENT,
     Name VARCHAR(50) NOT NULL,
     Hours TIME NOT NULL,
     Phone VARCHAR(15) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE Employee (
 -- Create Branch table
 DROP TABLE IF EXISTS Branch;
 CREATE TABLE Branch (
-    Branch_ID INT NOT NULL,
+    Branch_ID INT NOT NULL AUTO_INCREMENT,
     Hours TIME NOT NULL,
     Phone VARCHAR(15) NOT NULL,
     Location VARCHAR(50) NOT NULL,

@@ -11,6 +11,6 @@ require_once("config.php");
 <body>
     <h1><?= $PROJECT_NAME ?></h1>
     <?php include("nav.php"); ?>
-    <?php echo "44"; ?>
+    <?php echo "Welcome to our castle!"; ?>
 </body>
 </html>

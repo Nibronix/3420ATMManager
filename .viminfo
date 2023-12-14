@@ -10,17 +10,50 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/search_form
+
 # Command Line History (newest to oldest):
-:q
-|2,0,1699566165,,"q"
 :wq
-|2,0,1699565219,,"wq"
+|2,0,1700176597,,"wq"
 :w
-|2,0,1699565208,,"w"
+|2,0,1700176416,,"w"
+:q
+|2,0,1700171723,,"q"
+:set mouse=a
+|2,0,1700169165,,"set mouse=a"
 :Q
 |2,0,1699565156,,"Q"
 
 # Search String History (newest to oldest):
+?/delete data
+|2,1,1700176378,47,"delete data"
+?/hellouuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+|2,1,1700170255,47,"hellouuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+?/.hello
+|2,1,1700169687,47,".hello"
+?/search_form
+|2,1,1699837654,47,"search_form"
+?/table_name
+|2,1,1699837545,47,"table_name"
+?/name=
+|2,1,1699837381,47,"name="
+?/??
+|2,1,1699837300,47,"??"
+?/attributes
+|2,1,1699836993,47,"attributes"
+?/POST
+|2,1,1699837430,47,"POST"
+?/GET
+|2,1,1699837426,47,"GET"
+?/config
+|2,1,1699836545,47,"config"
+?/db
+|2,1,1699836210,47,"db"
+?/if (isset
+|2,1,1699835881,47,"if (isset"
+?/options =[];
+|2,1,1699835473,47,"options =[];"
 
 # Expression History (newest to oldest):
 
@@ -29,232 +62,315 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	            $conn = new PDO(
+	                "mysql:host=localhost;dbname=atmmanager",  // change dbname
+	                "atmmanager",                          // change username
+	                "Zyaf&6yud",                      // change password
+	                $options);
+	        }
+|3,0,0,1,6,0,1699836401,"            $conn = new PDO(","                \"mysql:host=localhost;dbname=atmmanager\",  // change dbname","                \"atmmanager\",                          // change username","                \"Zyaf&6yud\",                      // change password","                $options);","        }"
+""1	LINE	0
+	</html>
+|3,1,1,1,1,0,1700171740,"</html>"
+"2	LINE	0
+	</body>
+|3,0,2,1,1,0,1700171740,"</body>"
+"3	LINE	0
+	?>
+|3,0,3,1,1,0,1700171740,"?>"
+"4	LINE	0
+	$delete_form->build_form();
+|3,0,4,1,1,0,1700171740,"$delete_form->build_form();"
+"5	LINE	0
+	), "delete");
+|3,0,5,1,1,0,1700171740,"), \"delete\");"
+"6	LINE	0
+	    "value" => "Delete"
+|3,0,6,1,1,0,1700171739,"    \"value\" => \"Delete\""
+"7	LINE	0
+	    "type" => "submit",
+|3,0,7,1,1,0,1700171739,"    \"type\" => \"submit\","
+"8	LINE	0
+	$delete_form->add_input("Delete", array(
+|3,0,8,1,1,0,1700171739,"$delete_form->add_input(\"Delete\", array("
+"9	LINE	0
+	), "delete_data");
+|3,0,9,1,1,0,1700171739,"), \"delete_data\");"
+"-	CHAR	0
+	>
+|3,0,36,0,1,0,1700169141,">"
 
 # File marks:
-'0  108  0  /home/stu/runnerpp/public_html/project/connect.php
-|4,48,108,0,1699566165,"/home/stu/runnerpp/public_html/project/connect.php"
-'1  76  6  /home/stu/runnerpp/public_html/project/indexV2.php
-|4,49,76,6,1699566143,"/home/stu/runnerpp/public_html/project/indexV2.php"
-'2  39  54  ~/public_html/yourprojectname/config.php
-|4,50,39,54,1699565219,"~/public_html/yourprojectname/config.php"
-'3  1  0  ~/public_html/yourprojectname/index.php
-|4,51,1,0,1699565157,"~/public_html/yourprojectname/index.php"
-'4  35  38  ~/public_html/yourprojectname/config.php
-|4,52,35,38,1699564565,"~/public_html/yourprojectname/config.php"
-'5  35  38  ~/public_html/yourprojectname/config.php
-|4,53,35,38,1699564565,"~/public_html/yourprojectname/config.php"
-'6  1  4  ~/public_html/yourprojectname/config.php
-|4,54,1,4,1699564185,"~/public_html/yourprojectname/config.php"
-'7  1  4  ~/public_html/yourprojectname/config.php
-|4,55,1,4,1699564185,"~/public_html/yourprojectname/config.php"
-'8  1  4  ~/public_html/yourprojectname/config.php
-|4,56,1,4,1699564185,"~/public_html/yourprojectname/config.php"
-'9  1  4  ~/public_html/yourprojectname/config.php
-|4,57,1,4,1699564185,"~/public_html/yourprojectname/config.php"
+'0  50  7  ~/public_html/atmmanager/delete.php
+|4,48,50,7,1700176774,"~/public_html/atmmanager/delete.php"
+'1  45  46  ~/public_html/atmmanager/delete.php
+|4,49,45,46,1700176597,"~/public_html/atmmanager/delete.php"
+'2  27  0  ~/public_html/atmmanager/delete.php
+|4,50,27,0,1700176167,"~/public_html/atmmanager/delete.php"
+'3  27  0  ~/public_html/atmmanager/delete.php
+|4,51,27,0,1700176167,"~/public_html/atmmanager/delete.php"
+'4  62  0  ~/public_html/atmmanager/select.php
+|4,52,62,0,1700171723,"~/public_html/atmmanager/select.php"
+'5  1  19  ~/public_html/atmmanager/delete.php
+|4,53,1,19,1700171360,"~/public_html/atmmanager/delete.php"
+'6  53  19  ~/public_html/atmmanager/delete.php
+|4,54,53,19,1700171360,"~/public_html/atmmanager/delete.php"
+'7  1  19  ~/public_html/atmmanager/delete.php
+|4,55,1,19,1700171360,"~/public_html/atmmanager/delete.php"
+'8  53  19  ~/public_html/atmmanager/delete.php
+|4,56,53,19,1700171360,"~/public_html/atmmanager/delete.php"
+'9  55  1  ~/public_html/atmmanager/config.php
+|4,57,55,1,1700169692,"~/public_html/atmmanager/config.php"
 
 # Jumplist (newest first):
--'  108  0  /home/stu/runnerpp/public_html/project/connect.php
-|4,39,108,0,1699566165,"/home/stu/runnerpp/public_html/project/connect.php"
--'  1  0  /home/stu/runnerpp/public_html/project/connect.php
-|4,39,1,0,1699566153,"/home/stu/runnerpp/public_html/project/connect.php"
--'  76  6  /home/stu/runnerpp/public_html/project/indexV2.php
-|4,39,76,6,1699566143,"/home/stu/runnerpp/public_html/project/indexV2.php"
--'  76  6  /home/stu/runnerpp/public_html/project/indexV2.php
-|4,39,76,6,1699566143,"/home/stu/runnerpp/public_html/project/indexV2.php"
--'  1  0  /home/stu/runnerpp/public_html/project/indexV2.php
-|4,39,1,0,1699566126,"/home/stu/runnerpp/public_html/project/indexV2.php"
--'  1  0  /home/stu/runnerpp/public_html/project/indexV2.php
-|4,39,1,0,1699566126,"/home/stu/runnerpp/public_html/project/indexV2.php"
--'  39  54  ~/public_html/yourprojectname/config.php
-|4,39,39,54,1699565219,"~/public_html/yourprojectname/config.php"
--'  39  54  ~/public_html/yourprojectname/config.php
-|4,39,39,54,1699565219,"~/public_html/yourprojectname/config.php"
--'  39  54  ~/public_html/yourprojectname/config.php
-|4,39,39,54,1699565219,"~/public_html/yourprojectname/config.php"
--'  39  54  ~/public_html/yourprojectname/config.php
-|4,39,39,54,1699565219,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699565159,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699565159,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699565159,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699565159,"~/public_html/yourprojectname/config.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699565157,"~/public_html/yourprojectname/index.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  35  38  ~/public_html/yourprojectname/config.php
-|4,39,35,38,1699564565,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564205,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  4  ~/public_html/yourprojectname/config.php
-|4,39,1,4,1699564185,"~/public_html/yourprojectname/config.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/yourprojectname/index.php
-|4,39,1,0,1699564141,"~/public_html/yourprojectname/index.php"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
--'  1  0  ~/public_html/atmmanager.dump.sql
-|4,39,1,0,1698696521,"~/public_html/atmmanager.dump.sql"
+-'  50  7  ~/public_html/atmmanager/delete.php
+|4,39,50,7,1700176774,"~/public_html/atmmanager/delete.php"
+-'  45  46  ~/public_html/atmmanager/delete.php
+|4,39,45,46,1700176597,"~/public_html/atmmanager/delete.php"
+-'  96  32  ~/public_html/atmmanager/delete.php
+|4,39,96,32,1700176379,"~/public_html/atmmanager/delete.php"
+-'  36  30  ~/public_html/atmmanager/delete.php
+|4,39,36,30,1700176378,"~/public_html/atmmanager/delete.php"
+-'  27  0  ~/public_html/atmmanager/delete.php
+|4,39,27,0,1700176365,"~/public_html/atmmanager/delete.php"
+-'  27  0  ~/public_html/atmmanager/delete.php
+|4,39,27,0,1700176167,"~/public_html/atmmanager/delete.php"
+-'  1  19  ~/public_html/atmmanager/delete.php
+|4,39,1,19,1700171727,"~/public_html/atmmanager/delete.php"
+-'  1  19  ~/public_html/atmmanager/delete.php
+|4,39,1,19,1700171727,"~/public_html/atmmanager/delete.php"
+-'  62  0  ~/public_html/atmmanager/select.php
+|4,39,62,0,1700171723,"~/public_html/atmmanager/select.php"
+-'  62  0  ~/public_html/atmmanager/select.php
+|4,39,62,0,1700171723,"~/public_html/atmmanager/select.php"
+-'  62  0  ~/public_html/atmmanager/select.php
+|4,39,62,0,1700171723,"~/public_html/atmmanager/select.php"
+-'  62  0  ~/public_html/atmmanager/select.php
+|4,39,62,0,1700171723,"~/public_html/atmmanager/select.php"
+-'  123  0  ~/public_html/atmmanager/select.php
+|4,39,123,0,1700171364,"~/public_html/atmmanager/select.php"
+-'  123  0  ~/public_html/atmmanager/select.php
+|4,39,123,0,1700171364,"~/public_html/atmmanager/select.php"
+-'  123  0  ~/public_html/atmmanager/select.php
+|4,39,123,0,1700171364,"~/public_html/atmmanager/select.php"
+-'  123  0  ~/public_html/atmmanager/select.php
+|4,39,123,0,1700171364,"~/public_html/atmmanager/select.php"
+-'  53  19  ~/public_html/atmmanager/delete.php
+|4,39,53,19,1700171360,"~/public_html/atmmanager/delete.php"
+-'  53  19  ~/public_html/atmmanager/delete.php
+|4,39,53,19,1700171360,"~/public_html/atmmanager/delete.php"
+-'  53  19  ~/public_html/atmmanager/delete.php
+|4,39,53,19,1700171360,"~/public_html/atmmanager/delete.php"
+-'  6  0  ~/public_html/atmmanager/delete.php
+|4,39,6,0,1700171006,"~/public_html/atmmanager/delete.php"
+-'  6  0  ~/public_html/atmmanager/delete.php
+|4,39,6,0,1700171006,"~/public_html/atmmanager/delete.php"
+-'  6  0  ~/public_html/atmmanager/delete.php
+|4,39,6,0,1700171006,"~/public_html/atmmanager/delete.php"
+-'  1  0  ~/public_html/atmmanager/delete.php
+|4,39,1,0,1700171005,"~/public_html/atmmanager/delete.php"
+-'  1  0  ~/public_html/atmmanager/delete.php
+|4,39,1,0,1700171005,"~/public_html/atmmanager/delete.php"
+-'  2  0  ~/public_html/atmmanager/delete.php
+|4,39,2,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  3  0  ~/public_html/atmmanager/delete.php
+|4,39,3,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  4  0  ~/public_html/atmmanager/delete.php
+|4,39,4,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  5  0  ~/public_html/atmmanager/delete.php
+|4,39,5,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  7  0  ~/public_html/atmmanager/delete.php
+|4,39,7,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  2  0  ~/public_html/atmmanager/delete.php
+|4,39,2,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  3  0  ~/public_html/atmmanager/delete.php
+|4,39,3,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  4  0  ~/public_html/atmmanager/delete.php
+|4,39,4,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  5  0  ~/public_html/atmmanager/delete.php
+|4,39,5,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  7  0  ~/public_html/atmmanager/delete.php
+|4,39,7,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  2  0  ~/public_html/atmmanager/delete.php
+|4,39,2,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  3  0  ~/public_html/atmmanager/delete.php
+|4,39,3,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  4  0  ~/public_html/atmmanager/delete.php
+|4,39,4,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  5  0  ~/public_html/atmmanager/delete.php
+|4,39,5,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  7  0  ~/public_html/atmmanager/delete.php
+|4,39,7,0,1700170260,"~/public_html/atmmanager/delete.php"
+-'  8  0  ~/public_html/atmmanager/delete.php
+|4,39,8,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  9  4  ~/public_html/atmmanager/delete.php
+|4,39,9,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  10  0  ~/public_html/atmmanager/delete.php
+|4,39,10,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  11  4  ~/public_html/atmmanager/delete.php
+|4,39,11,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  12  4  ~/public_html/atmmanager/delete.php
+|4,39,12,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  13  0  ~/public_html/atmmanager/delete.php
+|4,39,13,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  14  4  ~/public_html/atmmanager/delete.php
+|4,39,14,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  15  8  ~/public_html/atmmanager/delete.php
+|4,39,15,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  16  8  ~/public_html/atmmanager/delete.php
+|4,39,16,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  17  8  ~/public_html/atmmanager/delete.php
+|4,39,17,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  18  4  ~/public_html/atmmanager/delete.php
+|4,39,18,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  19  4  ~/public_html/atmmanager/delete.php
+|4,39,19,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  20  8  ~/public_html/atmmanager/delete.php
+|4,39,20,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  21  8  ~/public_html/atmmanager/delete.php
+|4,39,21,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  22  8  ~/public_html/atmmanager/delete.php
+|4,39,22,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  23  4  ~/public_html/atmmanager/delete.php
+|4,39,23,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  24  4  ~/public_html/atmmanager/delete.php
+|4,39,24,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  25  8  ~/public_html/atmmanager/delete.php
+|4,39,25,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  26  12  ~/public_html/atmmanager/delete.php
+|4,39,26,12,1700170259,"~/public_html/atmmanager/delete.php"
+-'  28  8  ~/public_html/atmmanager/delete.php
+|4,39,28,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  29  12  ~/public_html/atmmanager/delete.php
+|4,39,29,12,1700170259,"~/public_html/atmmanager/delete.php"
+-'  30  8  ~/public_html/atmmanager/delete.php
+|4,39,30,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  31  7  ~/public_html/atmmanager/delete.php
+|4,39,31,7,1700170259,"~/public_html/atmmanager/delete.php"
+-'  32  4  ~/public_html/atmmanager/delete.php
+|4,39,32,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  33  4  ~/public_html/atmmanager/delete.php
+|4,39,33,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  34  8  ~/public_html/atmmanager/delete.php
+|4,39,34,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  35  4  ~/public_html/atmmanager/delete.php
+|4,39,35,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  37  0  ~/public_html/atmmanager/delete.php
+|4,39,37,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  8  0  ~/public_html/atmmanager/delete.php
+|4,39,8,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  9  4  ~/public_html/atmmanager/delete.php
+|4,39,9,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  10  0  ~/public_html/atmmanager/delete.php
+|4,39,10,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  11  4  ~/public_html/atmmanager/delete.php
+|4,39,11,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  12  4  ~/public_html/atmmanager/delete.php
+|4,39,12,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  13  0  ~/public_html/atmmanager/delete.php
+|4,39,13,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  14  4  ~/public_html/atmmanager/delete.php
+|4,39,14,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  15  8  ~/public_html/atmmanager/delete.php
+|4,39,15,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  16  8  ~/public_html/atmmanager/delete.php
+|4,39,16,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  17  8  ~/public_html/atmmanager/delete.php
+|4,39,17,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  18  4  ~/public_html/atmmanager/delete.php
+|4,39,18,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  19  4  ~/public_html/atmmanager/delete.php
+|4,39,19,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  20  8  ~/public_html/atmmanager/delete.php
+|4,39,20,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  21  8  ~/public_html/atmmanager/delete.php
+|4,39,21,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  22  8  ~/public_html/atmmanager/delete.php
+|4,39,22,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  23  4  ~/public_html/atmmanager/delete.php
+|4,39,23,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  24  4  ~/public_html/atmmanager/delete.php
+|4,39,24,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  25  8  ~/public_html/atmmanager/delete.php
+|4,39,25,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  26  12  ~/public_html/atmmanager/delete.php
+|4,39,26,12,1700170259,"~/public_html/atmmanager/delete.php"
+-'  27  8  ~/public_html/atmmanager/delete.php
+|4,39,27,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  28  8  ~/public_html/atmmanager/delete.php
+|4,39,28,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  29  12  ~/public_html/atmmanager/delete.php
+|4,39,29,12,1700170259,"~/public_html/atmmanager/delete.php"
+-'  30  8  ~/public_html/atmmanager/delete.php
+|4,39,30,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  31  7  ~/public_html/atmmanager/delete.php
+|4,39,31,7,1700170259,"~/public_html/atmmanager/delete.php"
+-'  32  4  ~/public_html/atmmanager/delete.php
+|4,39,32,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  33  4  ~/public_html/atmmanager/delete.php
+|4,39,33,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  34  8  ~/public_html/atmmanager/delete.php
+|4,39,34,8,1700170259,"~/public_html/atmmanager/delete.php"
+-'  35  4  ~/public_html/atmmanager/delete.php
+|4,39,35,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  36  4  ~/public_html/atmmanager/delete.php
+|4,39,36,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  37  0  ~/public_html/atmmanager/delete.php
+|4,39,37,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  8  0  ~/public_html/atmmanager/delete.php
+|4,39,8,0,1700170259,"~/public_html/atmmanager/delete.php"
+-'  9  4  ~/public_html/atmmanager/delete.php
+|4,39,9,4,1700170259,"~/public_html/atmmanager/delete.php"
+-'  10  0  ~/public_html/atmmanager/delete.php
+|4,39,10,0,1700170259,"~/public_html/atmmanager/delete.php"
 
 # History of marks within files (newest to oldest):
+
+> ~/public_html/atmmanager/delete.php
+	*	1700176774	0
+	"	50	7
+	^	50	8
+	.	50	7
+	+	50	7
+
+> ~/public_html/atmmanager/select.php
+	*	1700171719	0
+	"	62	0
+	^	92	0
+	.	91	3
+	+	94	39
+	+	123	0
+	+	94	0
+	+	94	92
+	+	94	3
+	+	94	0
+	+	94	92
+	+	94	83
+	+	94	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	23	0
+	+	24	0
+	+	15	0
+	+	94	0
+	+	94	30
+	+	121	1
+	+	17	43
+	+	17	40
+	+	17	0
+	+	87	39
+	+	91	3
+
+> ~/public_html/atmmanager/config.php
+	*	1700169687	0
+	"	55	1
+
+> ~/Project_atmmanager.txt
+	*	1699835815	0
+	"	3	20
 
 > /home/stu/runnerpp/public_html/project/connect.php
 	*	1699566160	0

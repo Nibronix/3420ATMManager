@@ -1,0 +1,172 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:35779 (IPv4)
+Extension host agent listening on 35779
+
+[17:33:59] 
+
+
+
+
+[17:33:59] Extension host agent started.
+[17:33:59] Started initializing default profile extensions in extensions installation folder. file:///home/stu/atmmanager/.vscode-server/extensions
+[17:33:59] Completed initializing default profile extensions in extensions installation folder. file:///home/stu/atmmanager/.vscode-server/extensions
+[17:33:59] [127.0.0.1][c4b935ef][ManagementConnection] New connection established.
+[17:33:59] [127.0.0.1][db2594f3][ExtensionHostConnection] New connection established.
+[17:33:59] [127.0.0.1][db2594f3][ExtensionHostConnection] <25921> Launched Extension Host Process.
+[17:34:22] [127.0.0.1][c4b935ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:34:22] [127.0.0.1][db2594f3][ExtensionHostConnection] <25921> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[17:34:22] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[17:34:22] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[17:34:46] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[17:34:46] Cancelling previous shutdown timeout
+[17:34:46] [127.0.0.1][23a47164][ManagementConnection] New connection established.
+[17:34:46] [127.0.0.1][d4b1a0bf][ExtensionHostConnection] New connection established.
+[17:34:46] [127.0.0.1][d4b1a0bf][ExtensionHostConnection] <26210> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:34:48] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+New EH opened, aborting shutdown
+[17:39:46] New EH opened, aborting shutdown
+[17:51:51] [127.0.0.1][88f04352][ManagementConnection] New connection established.
+[17:51:51] [127.0.0.1][b1aff3ea][ExtensionHostConnection] New connection established.
+[17:51:51] [127.0.0.1][b1aff3ea][ExtensionHostConnection] <30397> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:51:53] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:52:02] [127.0.0.1][88f04352][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:52:02] [127.0.0.1][b1aff3ea][ExtensionHostConnection] <30397> Extension Host Process exited with code: 0, signal: null.
+[17:52:14] [127.0.0.1][8eceeec0][ManagementConnection] New connection established.
+[17:52:14] [127.0.0.1][fdaffe7e][ExtensionHostConnection] New connection established.
+[17:52:14] [127.0.0.1][fdaffe7e][ExtensionHostConnection] <30565> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:52:16] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:58:21] Getting Manifest... devsense.phptools-vscode
+[17:58:21] Installing extension: devsense.phptools-vscode
+[17:58:22] Getting Manifest... devsense.composer-php-vscode
+[17:58:22] Getting Manifest... devsense.profiler-php-vscode
+[17:58:22] Getting Manifest... devsense.intelli-php-vscode
+[17:58:22] Installing extension: devsense.composer-php-vscode devsense.phptools-vscode
+[17:58:22] Installing extension: devsense.profiler-php-vscode devsense.phptools-vscode
+[17:58:22] Installing extension: devsense.intelli-php-vscode devsense.phptools-vscode
+[17:58:23] Extension signature verification failed with error 'ENOENT': devsense.profiler-php-vscode
+[17:58:24] Extension signature verification failed with error 'ENOENT': devsense.composer-php-vscode
+[17:58:24] Getting Manifest... xdebug.php-debug
+[17:58:24] Installing extension: xdebug.php-debug
+[17:58:26] Extracted extension to file:///home/stu/atmmanager/.vscode-server/extensions/devsense.composer-php-vscode-1.42.14434: devsense.composer-php-vscode
+[17:58:26] Renamed to /home/stu/atmmanager/.vscode-server/extensions/devsense.composer-php-vscode-1.42.14434
+[17:58:26] Extracting extension completed. devsense.composer-php-vscode
+[17:58:26] Extracted extension to file:///home/stu/atmmanager/.vscode-server/extensions/devsense.profiler-php-vscode-1.42.14434: devsense.profiler-php-vscode
+[17:58:26] Renamed to /home/stu/atmmanager/.vscode-server/extensions/devsense.profiler-php-vscode-1.42.14434
+[17:58:26] Extracting extension completed. devsense.profiler-php-vscode
+[17:58:26] Extension signature verification failed with error 'ENOENT': devsense.intelli-php-vscode
+[17:58:27] Extension signature verification failed with error 'ENOENT': xdebug.php-debug
+[17:58:28] Extracted extension to file:///home/stu/atmmanager/.vscode-server/extensions/xdebug.php-debug-1.34.0: xdebug.php-debug
+[17:58:28] Renamed to /home/stu/atmmanager/.vscode-server/extensions/xdebug.php-debug-1.34.0
+[17:58:28] Extracting extension completed. xdebug.php-debug
+[17:58:28] Extension installed successfully: xdebug.php-debug
+[17:58:30] Extracted extension to file:///home/stu/atmmanager/.vscode-server/extensions/devsense.intelli-php-vscode-0.10.14222-linux-x64: devsense.intelli-php-vscode
+[17:58:30] Renamed to /home/stu/atmmanager/.vscode-server/extensions/devsense.intelli-php-vscode-0.10.14222-linux-x64
+[17:58:30] Extracting extension completed. devsense.intelli-php-vscode
+[17:58:31] Extension signature verification failed with error 'ENOENT': devsense.phptools-vscode
+[17:58:32] Extracted extension to file:///home/stu/atmmanager/.vscode-server/extensions/devsense.phptools-vscode-1.42.14434-linux-x64: devsense.phptools-vscode
+[17:58:32] Renamed to /home/stu/atmmanager/.vscode-server/extensions/devsense.phptools-vscode-1.42.14434-linux-x64
+[17:58:32] Extracting extension completed. devsense.phptools-vscode
+[17:58:32] Extension installed successfully: devsense.composer-php-vscode
+[17:58:32] Extension installed successfully: devsense.profiler-php-vscode
+[17:58:32] Extension installed successfully: devsense.intelli-php-vscode
+[17:58:32] Extension installed successfully: devsense.phptools-vscode
+[21:46:34] [127.0.0.1][fdaffe7e][ExtensionHostConnection] <30565> Extension Host Process exited with code: 0, signal: null.
+[21:46:35] [127.0.0.1][d4b1a0bf][ExtensionHostConnection] <26210> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[21:46:35] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[21:51:35] Last EH closed, shutting down

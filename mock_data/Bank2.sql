@@ -1,0 +1,10 @@
+UPDATE Bank SET Location = '14 Waubesa Terrace' WHERE Bank_ID = 1;
+UPDATE Bank SET Location = '01158 Burning Wood Parkway' WHERE Bank_ID = 2;
+UPDATE Bank SET Location = '9 Memorial Alley' WHERE Bank_ID = 3;
+UPDATE Bank SET Location = '81181 Cottonwood Court' WHERE Bank_ID = 4;
+UPDATE Bank SET Location = '394 Old Gate Avenue' WHERE Bank_ID = 5;
+UPDATE Bank SET Location = '82 Homewood Plaza' WHERE Bank_ID = 6;
+UPDATE Bank SET Location = '2533 Tony Hill' WHERE Bank_ID = 7;
+UPDATE Bank SET Location = '92776 Armistice Street' WHERE Bank_ID = 8;
+UPDATE Bank SET Location = '422 Elgar Junction' WHERE Bank_ID = 9;
+UPDATE Bank SET Location = '704 Warbler Junction' WHERE Bank_ID = 10;

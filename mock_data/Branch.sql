@@ -98,3 +98,6 @@ insert into Branch (Branch_ID, Hours, Phone, Location, Name, Bank_ID) values (97
 insert into Branch (Branch_ID, Hours, Phone, Location, Name, Bank_ID) values (98, '15:54:02', '679-583-2533', '62428 Golf View Parkway', 'Ruecker Group', 6);
 insert into Branch (Branch_ID, Hours, Phone, Location, Name, Bank_ID) values (99, '5:02:52', '565-877-2952', '282 Hollow Ridge Avenue', 'Rath Inc', 9);
 insert into Branch (Branch_ID, Hours, Phone, Location, Name, Bank_ID) values (100, '15:15:43', '687-721-7593', '1023 Village Hill', 'Oberbrunner LLC', 9);
+
+UPDATE Branch 
+SET Close_Hours = ADDTIME(Hours, SEC_TO_TIME(FLOOR(3600 * RAND())));

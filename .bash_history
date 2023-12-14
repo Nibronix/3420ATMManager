@@ -95,3 +95,112 @@ git push -u origin master
 git remote add orign git@github.com:TKTJXTI/3420ATMManager.git
 git push -u origin main
 git push -u origin master
+ls
+cd public_html/
+ls
+cd atmmanager/
+ls
+vi config.php 
+ls
+vi Project_atmmanager.txt 
+cd public_html/
+ls
+cd atmmanager/
+ls
+vi select.php 
+cd
+vi Project_atmmanager.txt 
+cd public_html/atmmanager/
+ls
+vi select.php 
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git log
+git remote add origin https://github.com/TKTJXTI/3420ATMManager.git
+git push -u origin master
+git add select.php
+pwd
+cd public_html
+pwd
+git add select.php
+ls
+cd atmmanager
+ls
+git add select.php
+git commit -m "Finished select.php"
+git push origin master
+git add select.php
+git commit -m "Table Selection is no longer hardcoded, but added from a show tables query"
+mysql
+mysql -p
+git add select.php
+cd public_html
+cd atmmanager
+git add select.php
+git commit -m "Added result counts"
+git push
+git add insert.php
+git commit "Added table selection and insert forms"
+git commit -m "
+d
+;
+"
+git push 
+git add insert.php
+git commit -m "Added table selection and query forms"
+git restore insert.php
+git help
+mysql
+mysql -p
+python scripts/add_close_hours.py
+python --version
+python scripts/add_close_hours.py
+pip install mysql-connector-python
+python scripts/add_close_hours.py
+python --version
+pip3 install mysql-connector-python
+pip install mysql-connector-python
+sudo apt-get install python-pip
+mysql
+msqyl -p
+mysql -p
+mysql -p
+cd public_html/
+;s
+cd atmmanager/
+ls
+vi delete.php 
+ls
+vi delete.php 
+ls -al
+rm .delete.php.swp 
+vi delete.php 
+cat delete.php 
+vi delete.php 
+vi config.php 
+vi delete.php 
+vi select.php 
+vi delete.php 
+cd public_html/atmmanager/
+cat delete.php 
+cat select.php 
+mysqldump -u atmmanager -p atmmanager > atmmanager_11-16-23.sql
+mysql
+mysql -p
+mysqk
+mysql
+mysql -p
+ls
+mysql
+sql -p
+mysql -p
+mysqldump -u atmmanager -p atmmanager > atmmanager_12-13-23.sql
+mysql
+mysql -p
+mysql -u atmmanager -p atmmanager < sql/atmmanager_12-13-23.sql
+describe ATM;
+mysql -[
+mysql -p
+git init

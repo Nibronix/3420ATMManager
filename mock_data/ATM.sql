@@ -998,3 +998,6 @@ insert into ATM (Hours, Cash_Stored, Location, Branch_ID, Bank_ID) values ('20:4
 insert into ATM (Hours, Cash_Stored, Location, Branch_ID, Bank_ID) values ('6:40:46', 1653.66, '93973 Mifflin Plaza', 98, 3);
 insert into ATM (Hours, Cash_Stored, Location, Branch_ID, Bank_ID) values ('9:52:50', 1904.4, '1 Banding Drive', 75, 5);
 insert into ATM (Hours, Cash_Stored, Location, Branch_ID, Bank_ID) values ('21:03:09', 3943.61, '5 6th Center', 90, 9);
+ALTER TABLE ATM RENAME COLUMN Hours TO Start_Hours;
+ALTER TABLE ATM ADD Close_Hours TIME;
+UPDATE ATM SET Close_Hours = SEC_TO_TIME(FLOOR(RAND() * 86400));

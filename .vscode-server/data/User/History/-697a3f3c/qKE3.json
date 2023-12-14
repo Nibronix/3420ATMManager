@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+    "cmake.configureOnOpen": true,
+    "remoteHub.commitDirectlyWarning": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "lldb.suppressUpdateNotifications": true,
+    "remote.SSH.remotePlatform": {
+        "artemis.cs.csubak.edu": "linux"
+    },
+    "git.openRepositoryInParentFolders": "always"
+}

@@ -1,0 +1,143 @@
+2023-12-12 17:52:15.696 [info] Extension host with pid 30565 started
+2023-12-12 17:52:15.715 [info] Lock '/home/stu/atmmanager/.vscode-server/data/User/workspaceStorage/08b33bcd3e161a3a619948e6f4b55789/vscode.lock': Lock acquired.
+2023-12-12 17:52:15.782 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-12-12 17:52:15.828 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-12 17:52:16.088 [info] Eager extensions activated
+2023-12-12 17:52:16.089 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-12 17:52:16.090 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-12 17:52:16.675 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-12-12 17:52:17.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1177
+2023-12-12 17:52:17.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1177
+2023-12-12 17:52:23.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-12 17:55:50.359 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-12-12 17:56:02.186 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-12-12 17:56:21.035 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1177
+2023-12-12 17:57:55.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1176
+2023-12-12 17:58:00.702 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1176
+2023-12-12 17:58:17.351 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-12-12 17:58:33.108 [info] ExtensionService#_doActivateExtension DEVSENSE.intelli-php-vscode, startup: false, activationEvent: 'onLanguage:php'
+2023-12-12 17:58:33.109 [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: false, activationEvent: 'onLanguage:php'
+2023-12-12 17:58:48.427 [info] ExtensionService#_doActivateExtension xdebug.php-debug, startup: false, activationEvent: 'onDebugResolve:php'
+2023-12-12 17:59:44.856 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at b.z (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17514)
+    at o.value (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:15966)
+    at u.y (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at o.acceptChunk (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:12223)
+    at vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:11510
+    at o.value (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:676:4915)
+    at u.y (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at j.onload (vscode-file://vscode-app/c:/Users/aliaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:676:3306)
+2023-12-12 18:00:57.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:01:02.878 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2079
+2023-12-12 18:01:10.148 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: DEVSENSE.phptools-vscode
+2023-12-12 18:01:19.040 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:02:31.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:04:43.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:04:49.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:08:56.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:09:01.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:09:06.774 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2080
+2023-12-12 18:10:39.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2081
+2023-12-12 18:10:44.403 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2081
+2023-12-12 18:10:49.551 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2081
+2023-12-12 18:11:01.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2083
+2023-12-12 18:11:06.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2083
+2023-12-12 18:12:32.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2083
+2023-12-12 18:12:37.282 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2083
+2023-12-12 18:14:30.279 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2084
+2023-12-12 18:14:35.438 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2084
+2023-12-12 21:46:34.350 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-12-12 21:46:34.351 [info] Lock '/home/stu/atmmanager/.vscode-server/data/User/workspaceStorage/08b33bcd3e161a3a619948e6f4b55789/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-12-12 21:46:34.442 [error] Canceled: Canceled
+	at new g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:924696)
+	at n.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:940613)
+	at /home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at N.a (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:171:6532)
+	at N.h (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:97:20057)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2023-12-12 21:46:34.446 [error] Canceled: Canceled
+	at new g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/github/dist/extension.js:2:322364)
+	at /home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/github/dist/extension.js:2:323005
+	at f.value (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:1016450)
+	at n.y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:940613)
+	at /home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at N.a (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:171:6532)
+	at N.h (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:97:20057)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2023-12-12 21:46:34.484 [error] Error: Channel has been closed
+	at d (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:151:2490)
+	at Object.appendLine (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/vs/workbench/api/node/extensionHostProcess.js:151:2608)
+	at S.logOutputMessage (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:264539)
+	at S.error (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:264430)
+	at ChildProcess.<anonymous> (/home/stu/atmmanager/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:445419)
+	at ChildProcess.emit (node:events:513:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2023-12-12 21:46:34.507 [info] Extension host with pid 30565 exiting with code 0
